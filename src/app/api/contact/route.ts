@@ -41,10 +41,14 @@ export async function POST(request: Request) {
       { message: "Message sent successfully" },
       { status: 200 }
     );
-  } catch (error: any) {
-    console.error("Error sending email:", error);
+  } catch (error: unknown) {
+    let errorMessage = "Error sending message. Please try again later.";
+    if (error instanceof Error) {
+      console.error("Error sending email:", error);
+      errorMessage = error.message;
+    }
     return NextResponse.json(
-      { error: "Error sending message. Please try again later." },
+      { error: errorMessage },
       { status: 500 }
     );
   }

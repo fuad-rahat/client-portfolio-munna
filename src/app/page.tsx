@@ -1,5 +1,4 @@
 "use client";
-import { useRef } from "react";
 import Banner from "../../Components/Banner";
 import Projects from "../../Components/Projects";
 import Skills from "../../Components/Skills";
@@ -8,7 +7,6 @@ import ContactMe from "../../Components/ContactMe";
 import AboutMe from "../../Components/AboutMe";
 
 export default function Home() {
-  const projectsRef = useRef(null); // Reference to Projects section
 
   return (
     <div>
