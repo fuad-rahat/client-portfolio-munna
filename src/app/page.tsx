@@ -16,18 +16,38 @@ export default function Home() {
       <div className="bg-[#C3F4E9]">
         <Skills />
         <div>
-        <Education/>
+          <Education />
+        </div>
       </div>
-      </div>
-      <div  className="bg-[#D1FDF6]">
+      <div className="bg-[#D1FDF6]">
         <Projects />
       </div>
       <div>
-        <AboutMe/>
+        <AboutMe />
       </div>
       <div>
-        <ContactMe/>
+        <ContactMe />
       </div>
+
+      {/* Developer Section */}
+      <div className="bg-[#F0F8FF] py-2 text-center rounded-lg shadow-lg">
+  <p className="text-lg text-[#333] font-semibold">
+    Developed by <span className="text-[#5833FB]">Md. Muhtasim Fuad Rahat</span>
+  </p>
+  <p className="mt-2 text-sm text-[#555]">
+    Developer  {" "}
+    <a
+      href="http://fuad-rahat.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-[#5833FB] text-xl font-semibold hover:underline"
+    >
+      Portfolio
+    </a>
+  </p>
+</div>
+
+
     </div>
   );
 }
