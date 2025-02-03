@@ -10,7 +10,7 @@ const Skills = () => {
         <div className='flex max-w-4xl mx-auto gap-10 p-14'>
             {/* Left Section (Reversed Image) */}
             <div className='w-1/2 bg-[#E8E8E8]  flex justify-center items-center'>
-                <img className='transform scale-x-[-1]' src="/Basic photos/Skill photo.png" alt="" />
+                <img className='' src="/Basic photos/Skill photo.png" alt="" />
             </div>
 
             {/* Right Section (Text Content) */}

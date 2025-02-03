@@ -8,13 +8,16 @@ const Page = () => {
     "https://www.behance.net/gallery/205517359/Carousel-Animation",
     "https://www.behance.net/gallery/205471111/Animated-Charts",
     "https://www.behance.net/gallery/205427891/Responsive-Table",
-    "https://www.behance.net/gallery/204952019/Ads-for-shoe-Brand",
-    "https://www.behance.net/gallery/203401063/Futuristic-Shoe-Banner",
+    "https://www.behance.net/gallery/205384337/Smart-Animated-card",
     "https://www.behance.net/gallery/205300895/CARAXES-poster-from-House-of-the-Dragon",
-    "https://www.behance.net/gallery/203396927/Animated-Menu-bar",
+    "https://www.behance.net/gallery/204952019/Ads-for-shoe-Brand",
     "https://www.behance.net/gallery/204953483/Homepage-of-furniture-Website",
+    "https://www.behance.net/gallery/203401063/Futuristic-Shoe-Banner",
+    
+    "https://www.behance.net/gallery/203396927/Animated-Menu-bar",
+    
     "https://www.behance.net/gallery/203204039/Simple-App-design",
-    "https://www.behance.net/gallery/205384337/Smart-Animated-card"
+    
   ];
 
   // Create an array of image sources using the same count as links.
