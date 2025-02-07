@@ -40,7 +40,7 @@ const ContactMe = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#333333] py-10">
+    <div className="md:min-h-screen flex md:items-center md:justify-center bg-[#333333] md:py-10">
       <div className="bg-[#535353] shadow-md rounded px-8 pt-6 pb-8 w-full max-w-3xl">
         <h2 className="text-2xl font-bold mb-6 text-white text-center">Contact Me</h2>
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}

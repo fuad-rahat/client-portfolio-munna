@@ -48,15 +48,15 @@ const Skills = () => {
   };
 
   return (
-    <div className="w-full py-10 relative">
-      <div className="max-w-4xl mx-auto px-4">
+    <div className="w-full  py-20 md:py-40 relative">
+      <div className="max-w-5xl mx-auto px-4">
         <p className="text-4xl mt-3 mb-7 relative left-12 font-bold">My Projects</p>
         <div className="relative">
           {/* Always visible Left Fade Effect */}
-          <div className="absolute left-0 top-7 h-56 w-20 bg-gradient-to-r from-[#C3F4E9] to-transparent z-10 pointer-events-none"></div>
+          {/* <div className="absolute left-0 top-7 h-56 w-20 bg-gradient-to-r from-[#C3F4E9] to-transparent z-10 pointer-events-none"></div> */}
 
           {/* Always visible Right Fade Effect */}
-          <div className="absolute right-0 top-7 h-56 w-20 bg-gradient-to-l from-[#C3F4E9] to-transparent z-10 pointer-events-none"></div>
+          {/* <div className="absolute right-0 top-7 h-56 w-20 bg-gradient-to-l from-[#C3F4E9] to-transparent z-10 pointer-events-none"></div> */}
 
           <Slider {...settings}>
             {/* Figma Slide */}
@@ -68,7 +68,7 @@ const Skills = () => {
                 <img
                   src="/Projects/Figma/Figma main logo.png"
                   alt="Figma"
-                  className="h-40 w-40 md:h-56 md:w-56 -mt-3 rounded-4xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110 hover:object-cover"
+                  className="h-48 w-48 md:h-56 md:w-56 -mt-3 rounded-4xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110 hover:object-cover"
                 />
               </DraggableLink>
             </div>

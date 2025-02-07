@@ -3,7 +3,7 @@ import ContactMe from '../../../Components/ContactMe';
 
 const page = () => {
     return (
-        <div>
+        <div className='max-sm:mt-16'>
             <ContactMe/>
         </div>
     );

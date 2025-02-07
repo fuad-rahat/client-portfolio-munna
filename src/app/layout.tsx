@@ -29,7 +29,7 @@ export default function RootLayout({
       <Head>
       <link rel="icon" href="/favicon.ico" className="" />
         </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} overflow-x-hidden`}>
       <Navbar />
         {children}
       </body>

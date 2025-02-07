@@ -7,33 +7,22 @@ const AboutMe = () => {
       {/* Optional subtle pattern overlay */}
       <div className="absolute inset-0 bg-[url('/pattern.svg')] opacity-10" />
 
-      <div className="relative max-w-6xl mx-auto px-6">
+      <div className="relative max-w-6xl mx-auto ">
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Profile Image Section */}
-          <div className="relative group">
-            <div className="w-64 h-64 rounded-full overflow-hidden shadow-xl transform transition-transform duration-500 group-hover:scale-105">
+          <div className="relative w-1/3 group">
+            <div className="  overflow-hidden md:shadow-xl  transform transition-transform duration-500 ">
               <img
                 src="/Basic photos/Munna original.jpg"
                 alt="Profile of Munna"
-                className="w-full h-full object-cover"
+                className="w-[12rem] md:w-full h-[12rem] md:h-[38rem] rounded-full md:rounded-xl object-cover"
               />
             </div>
-            {/* A small decorative badge that appears on the image */}
-            <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-white rounded-full shadow-md flex items-center justify-center transform translate-x-1/2 translate-y-1/2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-8 h-8 text-blue-600"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12H8m8 0l-4-4m4 4l-4 4" />
-              </svg>
-            </div>
+            
           </div>
 
           {/* Text Content Section */}
-          <div className="text-white space-y-6">
+          <div className="text-white w-2/3 space-y-6">
             <h1 className="text-5xl font-bold">
               Hello, I'm <span className="text-teal-200">Munna</span>
             </h1>
@@ -83,7 +72,7 @@ const AboutMe = () => {
                   +8801908863619
                 </a>
               </p>
-              <p className="text-lg">
+              {/* <p className="text-lg">
                 <span className="font-medium">LinkedIn:</span>{" "}
                 <a
                   href="https://www.linkedin.com/in/mahbub-alahi-munna"
@@ -93,7 +82,7 @@ const AboutMe = () => {
                 >
                   LinkedIn Profile
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

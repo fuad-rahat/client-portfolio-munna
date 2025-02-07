@@ -8,8 +8,8 @@ const Page = () => {
   );
 
   return (
-    <div>
-      <p className="max-w-5xl text-5xl py-10 font-bold mx-auto">
+    <div className=" max-sm:p-2">
+      <p className="max-w-5xl text-3xl text-center md:mt-14 md:text-5xl py-20 md:py-10 font-bold mx-auto">
         Software Development Capstone Project
       </p>
       <div className="bg-[#C3F4E9]">

@@ -3,28 +3,28 @@ import React from "react";
 const Education = () => {
   const educationData = [
     {
-      title: "Bachelor of Software Engineering",
-      institution: "Daffodil International University",
-      date: "2022 - Present",
+      title: "Secondary School Certificate(SSC)",
+      institution: "Trishal Govt. Nazrul Academy",
+      date: "2017 - 2019",
       image: "/education/bachelor.png",
     },
     {
       title: "Higher Secondary School Certificate",
-      institution: "Dhaka College",
-      date: "2020 - 2022",
+      institution: "Alamgir Monsur Mintu Memorial College, Mymensingh.",
+      date: "2019 - 2021",
       image: "/education/hsc.png",
     },
     {
-      title: "Secondary School Certificate",
-      institution: "Ideal School & College",
-      date: "2018 - 2020",
+      title: "B.Sc. in Software Engineering",
+      institution: "Daffodil International University, Ashulia",
+      date: "2023 - Present",
       image: "/education/ssc.png",
     },
   ];
 
   return (
-    <section className="bg-gray-100 text-gray-800 py-12">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="bg-gray-100 text-gray-800 md:py-32 max-sm:pb-14 max-sm:relative -top-16">
+      <div className="max-w-5xl mx-auto md:px-4">
         {/* Header */}
         {/* <div className="text-center mb-14">
           <h3 className="text-3xl font-semibold mb-3">Education</h3>
@@ -37,7 +37,7 @@ const Education = () => {
         {/* Main Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Left Side - Image */}
-          <div className="flex bg-[#B3D3D2] h-[30rem]  justify-center items-center">
+          <div className="flex  bg-[#B3D3D2] h-[30rem]  justify-center items-center">
             <img
               src="/Basic photos/Education.png"
               alt="Education"
@@ -46,9 +46,9 @@ const Education = () => {
           </div>
 
           {/* Right Side - Timeline */}
-          <div className="">
+          <div className=" max-sm:px-4 ">
             <p className="text-4xl font-bold ">Educational Background</p>
-          <div className="relative ml-6 mt-10 left-24">
+          <div className="relative ml-6  mt-10 left-24">
             {/* Vertical Line - Starts at First Item and Ends at Third */}
             <div className="absolute left-[-4px] top-0 w-1 bg-[#1E73B7] h-full rounded-full"
               style={{ height: '15rem' }} // Adjusted to stop at the last item

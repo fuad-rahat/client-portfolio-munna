@@ -4,8 +4,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Page = () => {
   return (
-    <div className="max-w-5xl mx-auto">
-      <div className="py-4 text-4xl font-bold">Nasa Space Apps Challenge 2024</div>
+    <div className="max-w-5xl mx-auto max-sm:p-2 md:mt-14  max-sm:mt-14">
+      <div className="py-4 text-3xl md:text-4xl font-bold">Nasa Space Apps Challenge 2024</div>
       <div>
         <img src="/Projects/Nasa space app/Screenshot 2025-01-17 213529.png" alt="" />
       </div>

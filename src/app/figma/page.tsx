@@ -25,13 +25,13 @@ const Page = () => {
 
   return (
     <div>
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl font-bold py-3 mb-4 ml-3 relative">
+      <div className="max-w-5xl mx-auto max-sm: mt-14">
+        <h2 className="text-3xl md:text-4xl font-bold py-3 mb-4 ml-3 relative">
           Checkout My Figma Projects
         </h2>
       </div>
       <div className="bg-[#D9D9D9]">
-        <div className="max-w-5xl mx-auto grid grid-cols-3 gap-5 p-5">
+        <div className="max-w-5xl mx-auto grid grid-cols-2  lg:grid-cols-3 gap-5 p-5">
           {images.map((src, index) => (
             <a
               key={index}

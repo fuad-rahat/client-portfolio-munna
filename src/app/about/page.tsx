@@ -3,7 +3,7 @@ import AboutMe from '../../../Components/AboutMe';
 
 const page = () => {
     return (
-        <div>
+        <div className='max-sm:mt-16'>
             <AboutMe/>
         </div>
     );

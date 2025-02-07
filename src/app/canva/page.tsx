@@ -25,13 +25,13 @@ const CanvaGallery = () => {
 
   return (
     <div>
-      <div className="max-w-5xl mx-auto py-3">
-        <h2 className="text-4xl font-bold py-3 mb-4 ml-3">
+      <div className="max-w-5xl mx-auto py-3 max-sm:mt-16">
+        <h2 className="text-4xl font-bold py-3 md:mt-12 ml-3">
           Some Examples of my Canva presentations:
         </h2>
       </div>
       <div className="bg-[#D9D9D9]">
-        <div className="max-w-5xl mx-auto grid grid-cols-3 gap-5 p-5">
+        <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-3 gap-5 p-5">
           {images.map((src, index) => (
             <a
               key={index}
