@@ -27,15 +27,15 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 overflow-x-hidden transition-all duration-300 
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 
         ${isScrolled ? "bg-[#0070B5] shadow-md" : "bg-[#0070B5] shadow-md"}`}
     >
       <div className="md:max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/">
-        <div className="text-2xl md:text-3xl font-semibold text-white">
-          <span className="bg-[#0079C5] px-3 py-1 rounded-3xl rounded-tr-lg">MAH</span>
-          <span className="relative -left-2">BUB ALAHI MUNNA</span>
-        </div>
+          <div className="text-2xl md:text-3xl font-semibold text-white">
+            <span className="bg-[#0079C5] px-3 py-1 rounded-3xl rounded-tr-lg">MAH</span>
+            <span className="relative -left-2">BUB ALAHI MUNNA</span>
+          </div>
         </Link>
 
         {/* Desktop Menu */}
@@ -59,22 +59,24 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed top-0 right-0 w-[20rem] h-screen bg-[#0070B5] text-white flex flex-col items-center justify-center transform 
+        className={`fixed top-0 right-0 w-full max-w-xs h-screen bg-[#0070B5] text-white flex flex-col items-center justify-center transform 
           ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out`}
       >
-        <button className="absolute top-6 right-6 text-white" onClick={() => setIsOpen(false)}>
-          <X size={32} />
-        </button>
-        {menuItems.map((item, index) => (
-          <Link
-            key={index}
-            href={item.path}
-            onClick={() => setIsOpen(false)}
-            className="text-xl py-3 hover:bg-gray-400 hover:rounded-lg px-3 cursor-pointer hover:text-white transition-all"
-          >
-            {item.name}
-          </Link>
-        ))}
+        <div className="w-full px-6">
+          <button className="absolute top-6 right-6 text-white" onClick={() => setIsOpen(false)}>
+            <X size={32} />
+          </button>
+          {menuItems.map((item, index) => (
+            <Link
+              key={index}
+              href={item.path}
+              onClick={() => setIsOpen(false)}
+              className="text-xl py-3 w-full text-center hover:bg-gray-400 hover:rounded-lg px-3 cursor-pointer hover:text-white transition-all block"
+            >
+              {item.name}
+            </Link>
+          ))}
+        </div>
       </div>
     </nav>
   );
