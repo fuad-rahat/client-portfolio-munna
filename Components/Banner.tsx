@@ -87,14 +87,12 @@ const Banner = () => {
                     />
                     <img className="w-20 h-20 md:w-44 md:h-28  hidden md:block md:relative top-40 right-52 " src="/Basic photos/Click here photo.png" alt="" />
 
-                    <div className="flex text-2xl relative mt-4 text-white right-[21rem] gap-3">
+                    <div className="flex text-2xl relative md:absolute mt-5 text-white right-[8rem] gap-3">
                         <Link href="https://www.facebook.com/mahbubalahimunna"><FaSquareFacebook /></Link>
                         <Link href="https://www.linkedin.com/in/mahbub-alahi-munna"><BsLinkedin /></Link>
                         <Link href="https://www.instagram.com/mahbubalahimunna/"><FaInstagramSquare /></Link>
                         <Link href=""> <FaGithub /></Link>
                         
-                        
-                       
                     </div>
                 </div>
 
