@@ -30,7 +30,7 @@ const Banner = () => {
                                 </div>
                                 <div className={`lg:flex hidden md:block flex-col px-3 gap-5 mt-66`}>
                                     {/* Hire Me Button with smaller width */}
-                                    <Link href="https://www.linkedin.com/in/mahbub-alahi-munna/detail/contact-info/">
+                                    <Link href="https://www.linkedin.com/in/mahbub-alahi-munna-87a56a283/">
                                     <button className="bg-[#5833FB] cursor-pointer text-white py-3 px-5 flex justify-center items-center gap-2 w-[8rem]">
                                         Hire Me  <FaArrowRightLong className='' />
                                     </button>
@@ -58,7 +58,7 @@ const Banner = () => {
                             </div>
                             <div className={`flex justify-center item-center gap-5 mt-5`}>
                                 {/* Hire Me Button with smaller width */}
-                                <Link href='https://www.linkedin.com/in/mahbub-alahi-munna/detail/contact-info/'>
+                                <Link href='https://www.linkedin.com/in/mahbub-alahi-munna-87a56a283/'>
                                 <button className="bg-[#5833FB] text-white cursor-pointer py-3 px-5 flex justify-center items-center gap-2 w-[8rem]">
                                         Hire Me  <FaArrowRightLong className='' />
                                     </button>
@@ -89,7 +89,7 @@ const Banner = () => {
 
                     <div className="flex text-2xl relative md:absolute mt-5 text-white right-[8rem] gap-3">
                         <Link href="https://www.facebook.com/mahbubalahimunna"><FaSquareFacebook /></Link>
-                        <Link href="https://www.linkedin.com/in/mahbub-alahi-munna"><BsLinkedin /></Link>
+                        <Link href="https://www.linkedin.com/in/mahbub-alahi-munna-87a56a283/"><BsLinkedin /></Link>
                         <Link href="https://www.instagram.com/mahbubalahimunna/"><FaInstagramSquare /></Link>
                         <Link href=""> <FaGithub /></Link>
                         

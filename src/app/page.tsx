@@ -31,7 +31,7 @@ Butterfly”</p>
 <p className="text-xl text-center text-[#884D39]">Just Message Me Hi</p>
 <div className={`flex justify-center item-center gap-5 mt-5`}>
                                 {/* Hire Me Button with smaller width */}
-                                <Link href='https://www.linkedin.com/in/mahbub-alahi-munna/detail/contact-info/'>
+                                <Link href='https://www.linkedin.com/in/mahbub-alahi-munna-87a56a283/'>
                                 <button className="bg-[#0070B5] text-white py-3 cursor-pointer px-5 flex justify-center items-center gap-2 w-[8rem]">
                                         Hire Me  <FaArrowRightLong className='' />
                                     </button>
