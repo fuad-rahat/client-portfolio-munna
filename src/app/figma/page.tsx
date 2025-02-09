@@ -31,7 +31,7 @@ const Page = () => {
         </h2>
       </div>
       <div className="bg-[#D9D9D9]">
-        <div className="max-w-5xl mx-auto grid grid-cols-2  lg:grid-cols-3 gap-5 p-5">
+        <div className="max-w-5xl mx-auto grid grid-cols-1  lg:grid-cols-3 gap-5 p-5">
           {images.map((src, index) => (
             <a
               key={index}

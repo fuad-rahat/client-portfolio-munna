@@ -30,7 +30,7 @@ const Banner = () => {
                                 </div>
                                 <div className={`lg:flex hidden md:block flex-col px-3 gap-5 mt-66`}>
                                     {/* Hire Me Button with smaller width */}
-                                    <Link href="https://www.linkedin.com/in/mahbub-alahi-munna">
+                                    <Link href="https://www.linkedin.com/in/mahbub-alahi-munna/detail/contact-info/">
                                     <button className="bg-[#5833FB] cursor-pointer text-white py-3 px-5 flex justify-center items-center gap-2 w-[8rem]">
                                         Hire Me  <FaArrowRightLong className='' />
                                     </button>
@@ -58,7 +58,7 @@ const Banner = () => {
                             </div>
                             <div className={`flex justify-center item-center gap-5 mt-5`}>
                                 {/* Hire Me Button with smaller width */}
-                                <Link href='https://www.linkedin.com/in/mahbub-alahi-munna'>
+                                <Link href='https://www.linkedin.com/in/mahbub-alahi-munna/detail/contact-info/'>
                                 <button className="bg-[#5833FB] text-white cursor-pointer py-3 px-5 flex justify-center items-center gap-2 w-[8rem]">
                                         Hire Me  <FaArrowRightLong className='' />
                                     </button>
