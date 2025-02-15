@@ -50,11 +50,12 @@ const Education = () => {
             <p className="text-4xl font-bold ">Educational Background</p>
           <div className="relative ml-6  mt-10 left-24">
             {/* Vertical Line - Starts at First Item and Ends at Third */}
-            <div className="absolute left-[-4px] top-0 w-1 bg-[#1E73B7] h-full rounded-full"
+            <div className="absolute -left-[5.7rem] md:left-[-4px] -top-[0.2rem]  md:top-0 w-1 bg-[#1E73B7] h-full rounded-full"
               style={{ height: '15rem' }} // Adjusted to stop at the last item
             ></div>
 
-            {educationData.map((edu, index) => (
+           <div className="max-sm:relative -left-22">
+           {educationData.map((edu, index) => (
               <div key={index} className="mb-10 ml-6 relative last:mb-0">
                 {/* Rotated Rectangle (Diamond Shape) */}
                 <div className="absolute -left-[2.2rem] w-5 h-5 bg-[#1E73B7] transform rotate-45"></div>
@@ -65,6 +66,7 @@ const Education = () => {
                 <p className="text-sm font-bold ">{edu.institution}</p>
               </div>
             ))}
+           </div>
           </div>
           </div>
         </div>

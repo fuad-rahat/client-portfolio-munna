@@ -17,7 +17,7 @@ const Skills = () => {
             <div className='flex flex-col justify-center max-sm:text-white max-sm:bg-[#0070B5] relative py-10 bottom-10 w-full md:w-1/2 text-center md:text-left'>
                 <div className='max-w-xl mx-auto'>
                     <h2 className='text-5xl py-4 font-bold'>Skills</h2>
-                    <p>
+                    <p className='max-sm:px-4'>
                         Here are some of my skills, which also happen to be my hobbies. I enjoy working on these skills 
                         whenever I have the time, and I can't stop learning and improving in these areas.
                     </p>
@@ -33,6 +33,7 @@ const Skills = () => {
                     <div className='flex justify-center gap-5 mt-5 text-6xl md:text-8xl'>
                         <TiCamera />
                         <SiCanva />
+                        
                     </div>
                 </div>
             </div>
