@@ -29,7 +29,6 @@ export default function RootLayout({
       
         <Head>
         <link rel="icon" href="/favicon.ico" className="" />
-
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
