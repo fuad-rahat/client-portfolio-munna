@@ -13,7 +13,7 @@ const Page = () => {
         Software Development Capstone Project
       </p>
       <div className="bg-[#C3F4E9]">
-       <div className="text-justify max-w-md md:max-w-5xl mx-auto">
+       <div className="text-justify max-w-sm md:max-w-5xl mx-auto">
        <p className="py-14 text-5xl text-center font-bold">ABSTRACT</p>
         <p className=" py-3 ">
           The implementation of this banking management system promises numerous
@@ -54,7 +54,7 @@ const Page = () => {
             />
           ))}
         </div>
-        <p className="max-w-md md:max-w-5xl mx-auto text-justify text-xl font-semibold py-20">
+        <p className="max-w-sm md:max-w-5xl mx-auto text-justify text-xl font-semibold py-20">
           This document provides a brief overview of the project to give you a
           general idea of its scope and objectives. For more in-depth details,
           including technical specifications, workflows, or methodologies,

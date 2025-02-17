@@ -9,7 +9,7 @@ const Page = () => {
       <div>
         <img src="/Projects/Nasa space app/Screenshot 2025-01-17 213529.png" alt="" />
       </div>
-      <div className=" text-justify max-sm:max-w-md">
+      <div className=" text-justify max-sm:max-w-sm">
         <p className="text-3xl font-bold py-5"> About the Team:</p>
         <p>
           Are you fascinated by the origins of life and the extraordinary ecosystems that thrive in extreme environments?

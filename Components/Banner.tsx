@@ -92,7 +92,7 @@ const Banner = () => {
 
         <div className='md:hidden mb-20 max-w-sm mx-auto'>
             <p className=':bg-[#0070B5] text-white font-bold text-3xl  py-3'>Intro</p>
-            <p className='text-lg pb-20 font-[Andika] text-white max-w-md mx-auto text-justify'>Passionate UI/UX designer with a user-centered approach and a strong foundation in modern design principles. As a third-year Software Engineering student at Daffodil International University, I blend technical knowledge with hands-on experience to craft intuitive, visually compelling digital experiences. Skilled in problem-solving and research-driven design, I analyze user needs, leverage real-world data, and follow a structured process to optimize usability. Continuously learning and adapting to modern UI trends, I strive to create seamless, innovative interactions that enhance user experiences.</p>
+            <p className='text-lg pb-20 font-[Andika] text-white max-w-sm mx-auto text-justify'>Passionate UI/UX designer with a user-centered approach and a strong foundation in modern design principles. As a third-year Software Engineering student at Daffodil International University, I blend technical knowledge with hands-on experience to craft intuitive, visually compelling digital experiences. Skilled in problem-solving and research-driven design, I analyze user needs, leverage real-world data, and follow a structured process to optimize usability. Continuously learning and adapting to modern UI trends, I strive to create seamless, innovative interactions that enhance user experiences.</p>
         </div>
       </div>
     );
