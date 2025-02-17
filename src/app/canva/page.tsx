@@ -48,7 +48,7 @@ const CanvaGallery = () => {
             </a>
           ))}
         </div>
-        <div className="max-w-5xl mx-auto relative left-5">
+        <div className="max-w-md text-justify py-3 md:max-w-5xl mx-auto relative ">
           <p className="text-3xl py-3 text-[#1E68D6] font-bold">Note:</p>
           <p>
             The presentation slides I created stem from extensive research efforts. The content was developed through both independent work and collaborative team efforts.

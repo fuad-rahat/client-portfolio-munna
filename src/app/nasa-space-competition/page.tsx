@@ -9,7 +9,7 @@ const Page = () => {
       <div>
         <img src="/Projects/Nasa space app/Screenshot 2025-01-17 213529.png" alt="" />
       </div>
-      <div>
+      <div className=" text-justify max-sm:max-w-md">
         <p className="text-3xl font-bold py-5"> About the Team:</p>
         <p>
           Are you fascinated by the origins of life and the extraordinary ecosystems that thrive in extreme environments?
@@ -28,13 +28,15 @@ const Page = () => {
           boundaries of astrobiology beyond traditional Earth-like conditions.
         </p>
       </div>
+      <div className=" max-sm:flex justify-center items-center">
       <Link href="https://www.figma.com/proto/eLakp9wqJfnheUcNUCZVgO/Nasa-app?node-id=1-2&t=OsbiyOkFQ37W2DeQ-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A53">
-        <button className="py-4 px-9 top-10 relative left-24 bg-[#5833FB] text-white flex justify-center items-center gap-5 text-xl">
+        <button className="py-3 px-7 top-10 relative md:left-24 bg-[#0070B5] md:bg-[#5833FB] text-white flex justify-center items-center gap-5 text-xl">
           Project Demo
           <FaArrowRightLong />
         </button>
       </Link>
-      <div className="relative top-20">
+      </div>
+      <div className="relative py-4 top-20">
         <p className="text-4xl font-bold">My Achievements:</p>
         <div className="flex justify-center items-center m-10">
           <img src="/Projects/Nasa space app/Screenshot 2025-01-17 221734.png" alt="" />

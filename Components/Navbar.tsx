@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="md:max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/">
           <div className="text-2xl md:text-3xl font-semibold text-white">
-            <span className="bg-[#0079C5] px-3 py-1 rounded-3xl rounded-tr-lg">MAH</span>
+            <span className="bg-[#336872] md:bg-[#0079C5] px-3 py-1 rounded-3xl rounded-tr-lg">MAH</span>
             <span className="relative -left-2">BUB ALAHI MUNNA</span>
           </div>
         </Link>

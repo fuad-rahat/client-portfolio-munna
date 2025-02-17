@@ -8,13 +8,14 @@ const Page = () => {
   );
 
   return (
-    <div className=" max-sm:p-2">
-      <p className="max-w-5xl text-3xl text-center md:mt-14 md:text-5xl py-20 md:py-10 font-bold mx-auto">
+    <div className="">
+      <p className="max-w-5xl text-3xl text-center md:mt-14 md:text-5xl max-sm:relative top-7 py-10 font-bold mx-auto">
         Software Development Capstone Project
       </p>
       <div className="bg-[#C3F4E9]">
-        <p className="py-14 text-5xl text-center font-bold">ABSTRACT</p>
-        <p className="text-center max-w-5xl mx-auto">
+       <div className="text-justify max-w-md md:max-w-5xl mx-auto">
+       <p className="py-14 text-5xl text-center font-bold">ABSTRACT</p>
+        <p className=" py-3 ">
           The implementation of this banking management system promises numerous
           benefits. This project was chosen for its focus on several key areas,
           including time-saving, financial efficiency, and accessibility. Users
@@ -42,6 +43,7 @@ const Page = () => {
           innovation in banking services, benefiting users, institutions, and
           the broader community alike.
         </p>
+       </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 gap-5">
           {images.map((src, index) => (
             <img
@@ -52,7 +54,7 @@ const Page = () => {
             />
           ))}
         </div>
-        <p className="max-w-5xl mx-auto text-center text-2xl font-semibold py-20">
+        <p className="max-w-md md:max-w-5xl mx-auto text-justify text-xl font-semibold py-20">
           This document provides a brief overview of the project to give you a
           general idea of its scope and objectives. For more in-depth details,
           including technical specifications, workflows, or methodologies,

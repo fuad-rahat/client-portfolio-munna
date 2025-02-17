@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="md:hidden bg-[#0070B5] py-24">
+      <div className="md:hidden bg-[#0070B5] py-32 relative top-5">
       <p className='text-center text-white text-2xl font-bold max-w-xs mx-auto  md:hidden'>
                             I am a student at Daffodil International University, pursuing a BSc in Software Engineering. Additionally, I work as a UI/UX designer.
                             </p>
@@ -68,7 +68,7 @@ Butterfly”</p>
   <p className="text-xl md:text-lg text-[#333] font-semibold">
     Developed by <span className="text-[#5833FB]">Md. Muhtasim Fuad Rahat</span>
   </p>
-  <p className="md:mt-2 text-sm text-[#555]">
+  <p className=" text-sm text-[#555]">
     Developer  {" "}
     <a
       href="http://fuad-rahat.netlify.app/"
@@ -78,6 +78,10 @@ Butterfly”</p>
     >
       Portfolio
     </a>
+  </p>
+
+  <p className="text-xl md:text-lg text-[#333] font-semibold">
+    Designed by <span className="text-[#5833FB]">Mahbub Alahi Munna</span>
   </p>
 </div>
 
