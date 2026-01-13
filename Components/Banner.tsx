@@ -31,7 +31,7 @@ const Banner = () => {
                                     </button>
                                     </Link>
                                     <a
-                                        href="/Mahbub Alahi Munna.pdf"
+                                        href="/Mahbub Alahi Munna CV.pdf"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="border-[#5833FB] border-[0.1rem] text-[#5833FB] p-3 px-5 min-w-[10rem] text-center flex justify-center items-center gap-5"
@@ -57,7 +57,7 @@ const Banner = () => {
                                 </button>
                                 </Link>
                                 <a
-                                    href="/Mahbub Alahi Munna.pdf"
+                                    href="/Mahbub Alahi Munna CV.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="border-[#5833FB] border-[0.1rem] text-[#5833FB] p-3 px-5 min-w-[10rem] text-center flex justify-center items-center gap-5"
