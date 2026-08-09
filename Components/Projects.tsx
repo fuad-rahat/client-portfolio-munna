@@ -72,6 +72,33 @@ const Skills = () => {
                 />
               </DraggableLink>
             </div>
+            {/* NASA Space App Slide */}
+            <div className="px-3 py-10 overflow-hidden">
+              <DraggableLink
+                href="/nasa-space-competition"
+                className="block transition-transform duration-300 transform hover:scale-110"
+              >
+                <img
+                  src="/Projects/Nasa space app/Nasa space main logo.jpeg"
+                  alt="NASA Space App"
+                  className="h-40 w-40 md:h-48 md:w-48 rounded-4xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110 hover:object-cover"
+                />
+              </DraggableLink>
+            </div>
+
+             {/* C Slide */}
+            <div className="px-3 py-10 overflow-hidden">
+              <DraggableLink
+                href="/c-capstone-project"
+                className="block transition-transform duration-300 transform hover:scale-110"
+              >
+                <img
+                  src="/Basic photos/c.png"
+                  alt="C Capstone Project"
+                  className="h-40 w-40 md:h-48 md:w-48 rounded-4xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110 hover:object-cover"
+                />
+              </DraggableLink>
+            </div>
 
             {/* Canva Slide */}
             <div className="px-3 py-10 overflow-hidden">
@@ -87,33 +114,9 @@ const Skills = () => {
               </DraggableLink>
             </div>
 
-            {/* NASA Space App Slide */}
-            <div className="px-3 py-10 overflow-hidden">
-              <DraggableLink
-                href="/nasa-space-competition"
-                className="block transition-transform duration-300 transform hover:scale-110"
-              >
-                <img
-                  src="/Projects/Nasa space app/Nasa space main logo.jpeg"
-                  alt="NASA Space App"
-                  className="h-40 w-40 md:h-48 md:w-48 rounded-4xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110 hover:object-cover"
-                />
-              </DraggableLink>
-            </div>
+            
 
-            {/* NASA Space App Slide */}
-            <div className="px-3 py-10 overflow-hidden">
-              <DraggableLink
-                href="/c-capstone-project"
-                className="block transition-transform duration-300 transform hover:scale-110"
-              >
-                <img
-                  src="/Basic photos/c.png"
-                  alt="C Capstone Project"
-                  className="h-40 w-40 md:h-48 md:w-48 rounded-4xl object-cover mx-auto transition-transform duration-300 transform hover:scale-110 hover:object-cover"
-                />
-              </DraggableLink>
-            </div>
+           
           </Slider>
         </div>
       </div>

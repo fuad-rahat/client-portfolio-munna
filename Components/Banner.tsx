@@ -43,12 +43,25 @@ const Banner = () => {
                         </>
                     ) : (
                         <div className="w-[40rem] hidden md:block h-[37rem] lg:flex justify-center relative right-[7rem] items-center flex-col">
-                            <img src="/Basic photos/hello.png" className="w-66" alt="" />
-                            <div className="text-center max-w-sm font-bold">
-                                <p className="text-2xl">It's Mahbub Alahi Munna</p>
-                                <p>
-                                    I am a student at Daffodil International University, pursuing a BSc in Software Engineering. Additionally, I work as a UI/UX designer.
+                            {/* <img src="/Basic photos/hello.png" className="w-66" alt="" /> */}
+                            <div className="text-center max-w-xs lg:ml-20 font-bold">
+                                <p className="text-3xl text-left">Hi, I’m Mahbub Alahi Munna</p>
+                                <p className="text-left py-5">
+                                    I’m a Software Engineering student passionate about technology, problem-solving, and research.
                                 </p>
+                                <p className="text-left">
+    Currently developing my skills in:
+</p>
+
+<ul className="list-disc ml-6 space-y-2 m-2 text-left">
+    <li>Artificial Intelligence & Machine Learning</li>
+    <li>Data Science & Deep Learning</li>
+    <li>Explainable AI (XAI)</li>
+    <li>Research & Scientific Computing</li>
+    <li>Software Development</li>
+    <li>UI/UX Design</li>
+    <li>Web Development</li>
+</ul>
                             </div>
                             <div className={`flex justify-center item-center gap-5 mt-5`}>
                                 <Link href='https://www.linkedin.com/in/mahbub-alahi-munna-87a56a283/'>
@@ -79,7 +92,7 @@ const Banner = () => {
                             <Link href=""><FaGithub /></Link>
                         </div>
                         <img
-                            src={isToggled ? "/Basic photos/Munna original.jpg" : "/Basic photos/Munna animated.jpg"}
+                            src={isToggled ? "/Basic photos/munna_image2.jpeg" : "/Basic photos/munna_image2.jpeg"}
                             className="w-full h-[28rem] md:w-[38rem] md:h-[37rem] transition-all duration-300 object-cover"
                             alt=""
                         />
@@ -88,11 +101,16 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-        <img className="h-20 w-24 md:hidden relative -top-[20rem] left-[20rem]" src="/Basic photos/Click here photo.png" alt="" />
 
-        <div className='md:hidden mb-20 max-w-sm mx-auto'>
-            <p className=':bg-[#0070B5] text-white font-bold text-3xl  py-3'>Intro</p>
-            <p className='text-lg pb-20 font-[Andika] text-white max-w-sm mx-auto text-justify'>Passionate UI/UX designer with a user-centered approach and a strong foundation in modern design principles. As a third-year Software Engineering student at Daffodil International University, I blend technical knowledge with hands-on experience to craft intuitive, visually compelling digital experiences. Skilled in problem-solving and research-driven design, I analyze user needs, leverage real-world data, and follow a structured process to optimize usability. Continuously learning and adapting to modern UI trends, I strive to create seamless, innovative interactions that enhance user experiences.</p>
+        <div className='md:hidden py-10 max-w-sm mx-auto'>
+            <p className=':bg-[#0070B5] text-white font-bold text-3xl '>Intro</p>
+            <p className='text-lg  font-[Andika] text-white max-w-sm mx-auto text-justify'>I’m Mahbub Alahi Munna, a Software Engineering student passionate about Artificial Intelligence, Data Science, Deep Learning, and research. I enjoy exploring emerging technologies and applying them to solve meaningful problems.
+
+My recent work includes medical image classification, flood forecasting, disease outbreak prediction, and Explainable AI (XAI). Through these projects, I work with machine learning, deep learning, computer vision, and data-driven approaches while developing practical software solutions.
+
+I’m continuously improving my technical and research skills through experimentation, academic research, and hands-on projects, with the goal of turning innovative ideas into solutions for real-world challenges.
+
+Currently learning. Researching. Building.</p>
         </div>
       </div>
     );
